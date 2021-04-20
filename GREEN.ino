@@ -1,8 +1,6 @@
 void GREEN(){
-  int d=1;
-  while(d<=6);{
+  for(int d=1;d<=6;d++);{
     digitalWrite(Green,HIGH);
     digitalWrite(Green,LOW);
-    d++;
   }
 }

@@ -1,8 +1,7 @@
 void REDS(){
-  int k=1;
-  while(k<=8);{
+  for(int k=1;k<=8;k++);{
   digitalWrite(Red,HIGH);
   digitalWrite(Red,LOW);
-  k++;
+ 
   }
   }
